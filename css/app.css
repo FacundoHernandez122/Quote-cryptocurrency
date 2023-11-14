@@ -1,5 +1,6 @@
 body {
-    background-color: #090909;
+   background-color: #1a1a1a;
+   opacity: 90%;
 }
 img {
     max-width: 100%;
@@ -49,7 +50,12 @@ input[type="submit"]{
 }
 
 .resultado {
-    color: white;
+    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(0, 225, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 72, 82);  
+
 
 }
 .resultado h2 {
